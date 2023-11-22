@@ -69,7 +69,7 @@ guis = [initial_state]
 
 def is_valid_action(specific_action, state):
     # print("in is_valid_action")
-    state.print_gui()
+    # state.print_gui()
     if specific_action == "PICK-UP":
         # print("Inside pickup is_valid action")
         if state.h1 == "" and len(state.l1) == 2 and state.l1[1] == "h1":
